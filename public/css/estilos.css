@@ -1,0 +1,46 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.header{
+    width: 100%;
+    min-height: 30vw;
+    background-color: #ccc;
+    background-repeat: no-repeat;
+    background-size: 100vw auto, 110vw auto; 
+}
+
+
+.hero{
+    padding: 1rem;
+}
+
+.header--babbage{
+    background-image: url('../images/02-babbage.png'), url('../images/01-babbage.png');
+}
+
+.header--bernersLee{
+    background-image: url('../images/02-bernersLee.png'), url('../images/01-bernersLee.png');
+}
+
+.header--clarke{
+    background-image: url('../images/02-clarke.png'), url('../images/01-clarke.png');
+}
+
+.header--hamilton{
+    background-image: url('../images/02-hamilton.png'), url('../images/01-hamilton.png');
+}
+
+.header--hopper{
+    background-image: url('../images/02-hopper.png'), url('../images/01-hopper.png');
+}
+
+.header--lovelace{
+    background-image: url('../images/02-lovelace.png'), url('../images/01-lovelace.png');
+}
+
+.header--turing{
+    background-image: url('../images/02-turing.png'), url('../images/01-turing.png');
+}
